@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Tiempo de ciudades</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>El tiempo</h1>
+        </header>
+        <section>
+            <div class="contain">
+                <form method="get">
+                    <label for="cities">Selecciona la ciudad</label>
+                    <select name="cities" id="cities">
+                        <!-- opcion desactivada para que el select este en blanco  -->
+                        <option value="" selected hidden disabled></option>
+                        <option value="Sevilla">Sevilla</option>
+                        <option value="Munich">Munich</option>
+                        <option value="Birmingham">Birmingham</option>
+                        <option value="Roma">Roma</option>
+                    </select>
+                </form>
+            </div>
+            <div class="resultado">
+                <div id="city">Ciudad: </div>
+                <div id="temp">Temperatura: </div>
+                <div id="wet">Humedad: </div>
+            </div>
+    </main>
+</body>
+</html>

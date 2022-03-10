@@ -1,0 +1,20 @@
+body{
+    background: rgb(131,58,180);
+background: -moz-linear-gradient(90deg, rgba(131,58,180,0.8015581232492998) 0%, rgba(253,29,29,0.804359243697479) 50%, rgba(252,176,69,0.804359243697479) 100%);
+background: -webkit-linear-gradient(90deg, rgba(131,58,180,0.8015581232492998) 0%, rgba(253,29,29,0.804359243697479) 50%, rgba(252,176,69,0.804359243697479) 100%);
+background: linear-gradient(90deg, rgba(131,58,180,0.8015581232492998) 0%, rgba(253,29,29,0.804359243697479) 50%, rgba(252,176,69,0.804359243697479) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1);
+}
+header{
+    font-size: xx-large;
+    text-align: center;
+}
+.contain{
+    font-size: xx-large;
+    text-align: center;
+}
+.resultado{
+    padding: 10%;
+    font-size: xx-large;
+    text-align: center;
+}
